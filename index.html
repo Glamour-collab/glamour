@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glamour beauty - OFFICIAL STORE</title>
 
-    <!-- خط تجوال لتشابه الخطوط العربية -->
+    <!-- خط تجوال -->
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- سيتم وضع كود البكسل هنا لاحقاً -->
@@ -43,22 +43,20 @@
             justify-content: center;
             padding: 20px 20px 40px 20px;
         }
-        /* أيقونة الأكياس داخل المربع الأخضر ذو الزوايا المنحنية والظل الخفيف */
+        /* أيقونة الأكياس باللون الأسود الفخم المتناسق مع اسم المتجر والظل الخفيف */
         .store-badge {
             width: 105px;
             height: 105px;
-            background-color: #22d366;
+            background-color: #1a1a1a;
             border-radius: 26px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 22px;
-            box-shadow: 0 8px 25px rgba(34, 211, 102, 0.3);
+            box-shadow: 0 8px 25px rgba(26, 26, 26, 0.25);
         }
-        .store-badge img {
-            width: 60px;
-            height: 60px;
-            object-fit: contain;
+        .store-badge svg {
+            stroke: #ffffff;
         }
         /* اسم المتجر */
         h1 {
@@ -75,7 +73,7 @@
             letter-spacing: 2.5px;
             margin-bottom: 35px;
         }
-        /* أيقونة المحادثة الوسطى (الدائرة الخضراء المتدرجة مع فقاعة الشات والنقاط) */
+        /* أيقونة المحادثة الوسطى (الدائرة الخضراء المتدرجة) */
         .chat-icon-btn {
             display: flex;
             align-items: center;
@@ -156,9 +154,9 @@
     </div>
 
     <div class="content">
-        <!-- أيقونة الأكياس (شعار المتجر) -->
+        <!-- أيقونة الأكياس بخلفية سوداء فخمة متناسقة مع النصوص -->
         <div class="store-badge">
-            <svg viewBox="0 0 24 24" width="45" height="45" stroke="#ffffff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg viewBox="0 0 24 24" width="45" height="45" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
                 <line x1="3" y1="6" x2="21" y2="6"></line>
                 <path d="M16 10a4 4 0 0 1-8 0"></path>
@@ -169,9 +167,8 @@
         <h1>Glamour beauty</h1>
         <div class="subtitle">OFFICIAL STORE</div>
 
-        <!-- أيقونة المحادثة الوسطى (تتوجه للواتساب وتفعل حدث تتبع التواصل) -->
+        <!-- أيقونة المحادثة الوسطى -->
         <a href="https://wa.me/972567728417" class="chat-icon-btn" onclick="ttq.track('Contact');" aria-label="تواصل عبر الواتساب">
-            <!-- شكل فقاعة الدردشة والنقاط -->
             <svg viewBox="0 0 24 24" fill="#ffffff">
                 <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
             </svg>
@@ -186,7 +183,7 @@
         </div>
     </div>
 
-    <!-- الشريط والسفلي العريض المنحني للطلب -->
+    <!-- الشريط السفلي للطلب -->
     <a href="https://wa.me/972567728417" class="bottom-bar" onclick="ttq.track('Contact');">
         <span>مراستلنا ← عبر واتساب</span>
         <svg viewBox="0 0 24 24">
